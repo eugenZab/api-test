@@ -1,0 +1,27 @@
+{
+  "name": "api-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-qa": "set ENVIRONMENT=qa&& node ./run-tests.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eugenZab/api-test.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eugenZab/api-test/issues"
+  },
+  "homepage": "https://github.com/eugenZab/api-test#readme",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "fs": "0.0.1-security",
+    "mocha": "^9.0.2",
+    "mochawesome": "^6.2.2",
+    "path": "^0.12.7",
+    "superagent": "^6.1.0"
+  }
+}

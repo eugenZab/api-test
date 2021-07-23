@@ -1,0 +1,6 @@
+{
+  "logLevel": "info",
+  "server": {
+    "baseUrl": "http://demo9483096.mockable.io/"
+  }
+}
